@@ -10,9 +10,31 @@ package com.example;
  * @author 2108263
  */
 public class cuadrado {
-
+    int valor;
+    int cuadrado;
+    
     public cuadrado(int numero ) {
         int valor =  numero;
         int cuadrado = valor*valor;
     }
+    
+
+    public int getValor() {
+        return valor;
+    }
+
+    public void setValor(int valor) {
+        this.valor = valor;
+    }
+
+    public int getCuadrado() {
+        return cuadrado;
+    }
+
+    public void setCuadrado(int cuadrado) {
+        this.cuadrado = cuadrado;
+    }
+
+    
+    
 }
