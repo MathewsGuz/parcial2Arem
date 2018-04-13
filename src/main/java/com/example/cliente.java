@@ -22,9 +22,10 @@ public class cliente extends Thread {
     }
     
     public void run(){
+        copy("/");
         copy("/hello");
         copy("/db");
-        copy("/");
+        
     }
     
     public void copy(String opcion){
