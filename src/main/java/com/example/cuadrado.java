@@ -13,9 +13,9 @@ public class cuadrado {
     int valor;
     int cuadrado;
     
-    public cuadrado(int numero ) {
-        int valor =  numero;
-        int cuadrado = valor*valor;
+    public cuadrado(int numero) {
+        valor =  numero;
+        cuadrado = valor*valor;
     }
     
 
